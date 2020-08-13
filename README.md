@@ -3,7 +3,6 @@
 ### Requirements
 - progressBar
 
-support Discord Link : https://discord.gg/BWPjqBe
 
 ### Installation
 1) Drag & drop the folder into your `resources` server folder.
@@ -14,6 +13,3 @@ support Discord Link : https://discord.gg/BWPjqBe
 ### Showcase
 - https://streamable.com/ojdgm
 
-
-
-?? voidRP
