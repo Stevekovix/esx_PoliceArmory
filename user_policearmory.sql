@@ -25,11 +25,11 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `user_policearmory`
+-- Structure de la table `user_policeArmory`
 --
 
-DROP TABLE IF EXISTS `user_policearmory`;
-CREATE TABLE IF NOT EXISTS `user_policearmory` (
+DROP TABLE IF EXISTS `user_policeArmory`;
+CREATE TABLE IF NOT EXISTS `user_policeArmory` (
   `identifier` varchar(50) COLLATE utf8mb4_bin NOT NULL,
   `weapons` longtext COLLATE utf8mb4_bin DEFAULT NULL,
   `PlayerName` varchar(50) COLLATE utf8mb4_bin NOT NULL,
@@ -37,10 +37,10 @@ CREATE TABLE IF NOT EXISTS `user_policearmory` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 --
--- Déchargement des données de la table `user_policearmory`
+-- Déchargement des données de la table `user_policeArmory`
 --
 
-INSERT INTO `user_policearmory` (`identifier`, `weapons`, `PlayerName`) VALUES
+INSERT INTO `user_policeArmory` (`identifier`, `weapons`, `PlayerName`) VALUES
 ('steam:110000105cfaf9c', '', 'giorgosxrhbas'),
 ('steam:11000010ba8f10e', '', 'KovixVBC');
 COMMIT;
